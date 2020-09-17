@@ -1,0 +1,18 @@
+giovanni@DebianR: ~$ su -l 
+contraseña:
+root@DebianR: ~# useradd juan 
+root@DebianR: ~# useradd josue 
+root@DebianR: ~# groupadd casa
+root@DebianR: ~# adduser juan casa 
+Añadiendo el usuario ´juan´ al grupo ´casa´ …
+Añadiendo el usuario juan al grupo casa 
+Hecho.
+root@DebianR: ~# adduser josue casa 
+Añadiendo el usuario ´josue´ al grupo ´casa´ …
+Añadiendo el usuario josue al grupo casa 
+Hecho.
+root@DebianR: ~# sudo groupmod -n familia  casa 
+root@DebianR: ~# groupadd familia 
+groupadd: el grupo <<familia>> ya existe 
+root@DebianR: ~#
+
